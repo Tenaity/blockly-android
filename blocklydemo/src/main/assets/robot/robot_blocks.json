@@ -1,0 +1,352 @@
+[
+  {
+    "type": "sound_sensor_value",
+    "message0": "Chuyển động 声音传感器 %1 的值",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "sound_port_value",
+        "options": [
+          [
+            "Cổng 1 端口1",
+            "1"
+          ],
+          [
+            "Cổng 2 端口2",
+            "2"
+          ],
+          [
+            "Cổng 3 端口3",
+            "3"
+          ]
+        ]
+      }
+    ],
+    "inputsInline": false,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 180,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_xiaolian",
+    "message0": "Mặt cười 笑脸",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Mặt cười 笑脸",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_jvsang",
+    "message0": "Bực bội 沮丧",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Bực bội 沮丧",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_xiangshang",
+    "message0": "Mũi tên lên 向上箭头",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Mũi tên lên 向上箭头",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_xiangxia",
+    "message0": "Mũi tên xuống 向下箭头",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Mũi tên xuống 向下箭头",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_xiangzuo",
+    "message0": "Mũi tên trái 向左箭头",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Mũi tên trái 向左箭头",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_xiangyou",
+    "message0": "Mũi tên phải 向右箭头",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Mũi tên phải 向右箭头",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_close_rgb",
+    "message0": "Tắt RGB 熄灭RGB",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Tắt RGB 熄灭RGB",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_close_dianzhen",
+    "message0": "Ma trận điểm 熄灭点阵",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Ma trận điểm 熄灭点阵",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_huangse",
+    "message0": "Vàng nhạt 彩色灯黄色",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Màu vàng nhạt 彩色灯黄色",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_lanse",
+    "message0": "Lam nhạt 彩色灯蓝色",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Xanh lam nhạt 彩色灯蓝色",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_lvse",
+    "message0": "Cây nhạt 彩色灯绿色",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Cây nhạt 彩色灯绿色",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_hongse",
+    "message0": "Đỏ nhạt 彩色灯红色",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Đỏ nhạt 彩色灯红色",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_zise",
+    "message0": "Tìm nhạt 彩色灯紫色",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Tím nhạt 彩色灯紫色",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_baise",
+    "message0": "Trắng nhạt 彩色灯白色",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Trắng nhạt 彩色灯白色",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_fense",
+    "message0": "Hồng nhạt 彩色灯粉色",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FF658E",
+    "tooltip": "Hồng nhạt 彩色灯粉色",
+    "helpUrl": ""
+  },
+  {
+    "type": "option_start",
+    "message0": "Start click 当开始被点击",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#FFCD4F",
+    "tooltip": "Start click 当开始被点击",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_go_back_time",
+    "message0": "运动 %1 速度 %2 时长 %3 秒",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "go_or_back",
+        "options": [
+          [
+            "向前\u2191",
+            "1"
+          ],
+          [
+            "向后\u2193",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "move_speed",
+        "value": 100,
+        "min": 100,
+        "max": 255
+      },
+      {
+        "type": "field_number",
+        "name": "move_time",
+        "value": 1,
+        "min": 1,
+        "max": 255
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_clockwise",
+    "message0": "方向 %1 速度 %2 时长 %3 秒",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "go_or_back",
+        "options": [
+          [
+            "chiều kdh 顺时针\u21BB",
+            "1"
+          ],
+          [
+            "ngược kdh 逆时针\u21BA",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "move_speed",
+        "value": 100,
+        "min": 100,
+        "max": 255
+      },
+      {
+        "type": "field_number",
+        "name": "move_time",
+        "value": 1,
+        "min": 1,
+        "max": 255
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_go_back",
+    "message0": "运动 %1 速度 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "go_or_back",
+        "options": [
+          [
+            "Trước 向前\u2191",
+            "1"
+          ],
+          [
+            "Sau 向后\u2193",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "move_speed",
+        "value": 100,
+        "min": 100,
+        "max": 255
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_direction",
+    "message0": "方向 %1 速度 %2",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "go_or_back",
+        "options": [
+          [
+            "Trái 左转\u2190",
+            "1"
+          ],
+          [
+            "Phải 右转\u2192",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "move_speed",
+        "value": 100,
+        "min": 100,
+        "max": 255
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "move_stop",
+    "message0": "Stop 停止运动",
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#30DACC",
+    "tooltip": "Stop 停止运动",
+    "helpUrl": ""
+  },
+
+  {
+    "type": "control_wait",
+    "message0": "等待 %1 秒",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "control_time",
+        "value": 1
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": "#04B2FF",
+    "tooltip": "",
+    "helpUrl": ""
+  }
+
+
+
+
+]
